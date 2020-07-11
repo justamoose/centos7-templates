@@ -16,7 +16,5 @@ sudo yum -y update
 sudo yum -y install supervisor
 sudo systemctl enable supervisord
 echo_supervisord_conf > /etc/supervisord.conf
-sudo systemctl start supervisord
 sudo systemctl enable supervisord
-sudo systemctl stop supervisord
 sudo yum -y update
